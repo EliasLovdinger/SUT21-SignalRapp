@@ -1,0 +1,26 @@
+﻿
+<div class="container p-3 mb-2 bg-primary text-white">
+    <div class="font-italic">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Not FaceBook</h1>
+                <span>Enter Your Name</span> <br />
+                <input type="text" id="textUser" /> <br />
+                <span>Enter Your Message</span> <br />
+                <textarea rows="10" cols="50" id="textMessage"></textarea> <br />
+                <button type="submit" id="btnSend" class="btn btn-info">Send Message</button>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Message List</h3>
+                <ul id="list" class="alert alert-info"></ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/aspnet/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/site.js"></script>
